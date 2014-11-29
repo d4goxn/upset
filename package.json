@@ -5,12 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "mocha-test": "node_modules/.bin/mocha test",
-    "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha test -- -R spec"
+    "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha test -- -R spec && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "author": "Dan Ross",
   "license": "MIT",
   "devDependencies": {
     "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
     "istanbul": "^0.3.2",
     "mocha": "^2.0.1",
     "mocha-istanbul": "^0.2.0"
