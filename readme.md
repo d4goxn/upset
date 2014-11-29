@@ -1,5 +1,7 @@
 # Upset
 
+_work in progress, do not use_
+
 [![Build status](https://travis-ci.org/d4goxn/upset.svg)](https://travis-ci.org/d4goxn/upset)
 [![Coverage Status](https://img.shields.io/coveralls/d4goxn/upset.svg)](https://coveralls.io/r/d4goxn/upset)
 
